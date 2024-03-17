@@ -21,6 +21,8 @@
     Staging Area, Git deposunda değişikliklerin hazırlandığı ve sonraki bir taahhüde dahil edilmek üzere bekletildiği bir ara alanı temsil eder. Bu bölge, değişikliklerin taahhütlere eklenmeden önce düzenlenmesine ve kontrol edilmesine olanak tanır.  
 
 - "Untracked file" ne demektir?
+    İzlenmeyen dosya, henüz ara bölgeye (staging area) alınmamış dosyalardır. Git, bu dosyanın değişikliklerini izlemeyecek veya kaydetmeyecek ve bu dosya hakkında herhangi bir bilgi saklamayacaktır. 
+
 - ".git" klasörünü silersek ne olur?
 - Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 - Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?

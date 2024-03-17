@@ -21,6 +21,8 @@
     The Staging Area represents an intermediate area in a Git repository where changes are prepared and held to be included in a subsequent commit. This area allows for organizing and reviewing changes before they are added to commits.
 
 - What does "Untracked file" mean?
+    An untracked file refers to a file that has not yet been added to the staging area. Git will not track or save changes for this file, and will not store any information about it.
+
 - What happens if we delete the ".git" folder?
 - If we want a "ReadMe.md" file to be automatically created every time we use the "git init" command in our local environment, what should we do?
 - What is the "branch" structure mentioned in Git? What does it provide us?
