@@ -7,6 +7,10 @@ Git is a distributed version control system used in software development process
 The difference between "git pull" and "git fetch" commands is that "git pull" not only retrieves changes from the remote repository but also integrates them into the local branch, whereas "git fetch" only downloads changes from the remote repository to the local repository without merging them into the current branch.
 
 - If our teammate says "I've pushed my code, continue from where I left off with my development," and we can't fetch their pushed code to our local repository using "git pull," where might mistakes have been made?
+    * **Conflicting changes**: This is one of the most common issues in this context. If a person has made changes in their local working environment, the "git pull" command cannot be executed.
+    * **Permission issue**: The person may face permission restrictions when connecting to the remote server.
+    * **Pushing to the wrong branch:** The developer may have mistakenly sent the code to the wrong branch. In this case, it would be helpful to clearly specify the branch that has been pushed to.
+
 - What does "origin" refer to in the "git fetch origin" command?
 - What does the term "HEAD" represent?
 - What exactly is the region referred to as "Staging Area" or "Index"?
