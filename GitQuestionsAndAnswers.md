@@ -4,6 +4,8 @@
 Git is a distributed version control system used in software development processes, providing developers with the ability to track project file history, manage changes, collaborate, and track code.
 
 - What is the difference between "git pull" and "git fetch" commands?
+The difference between "git pull" and "git fetch" commands is that "git pull" not only retrieves changes from the remote repository but also integrates them into the local branch, whereas "git fetch" only downloads changes from the remote repository to the local repository without merging them into the current branch.
+
 - If our teammate says "I've pushed my code, continue from where I left off with my development," and we can't fetch their pushed code to our local repository using "git pull," where might mistakes have been made?
 - What does "origin" refer to in the "git fetch origin" command?
 - What does the term "HEAD" represent?

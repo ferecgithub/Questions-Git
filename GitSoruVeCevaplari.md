@@ -4,6 +4,8 @@
 Git versiyon kontrol sistemi, yazılım geliştirme süreçlerinde kullanılan dağıtık bir versiyon kontrol sistemidir. Geliştiricilere proje dosyalarının geçmişini takip etme, değişiklikleri yönetme, işbirliği yapma ve kodu izleme imkanı sağlar.
 
 - "git pull" ile "git fetch" komutlarının farkı nedir?
+"git pull" komutu, uzak depodan değişiklikleri alır ve bunları yerel depoya indirirken aynı zamanda mevcut dalı (branch) günceller. "git fetch" komutu ise uzak depodaki değişiklikleri sadece yerel depoya indirir ancak mevcut dala otomatik olarak entegre etmez.
+
 - Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
 - "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
 - "HEAD" kelimesi neyi temsil etmektedir?
