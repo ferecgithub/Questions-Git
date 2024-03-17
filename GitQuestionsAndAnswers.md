@@ -27,9 +27,17 @@
     If we delete this folder, all the changes, history, and tracking information related to the Git repository we have locally stored for the project will be erased.
 
 - If we want a "ReadMe.md" file to be automatically created every time we use the "git init" command in our local environment, what should we do?
-
+    We can use the Git template for this purpose. We can follow these steps:
+    1. We create a "ReadMe.md" file in our local working environment. This will serve as a template for us when creating a new repository.
+    2. Let's save the address of the Git template with git config as follows (we will provide the address where we created ReadMe.md instead of /path/to/your/template/directory):
+    ```
+        git config --global init.templateDir /path/to/your/template/directory
+    ```
+    3. We can create a repository with the "git init" command. In this case, "ReadMe.md" will be automatically created for us.
 
 - What is the "branch" structure mentioned in Git? What does it provide us?
+
+
 - How can we create a new "branch" from scratch?
 - How can we switch to an existing "branch"?
 - If we want to fetch only a specific branch while using the "git clone" command, how can we do it?

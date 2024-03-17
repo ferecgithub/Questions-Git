@@ -27,7 +27,17 @@
     Bu klasörü silersek proje ile ilgili lokalde tuttuğumuz git ile ilgili tüm değişiklikler, tarih ve takip bilgisi silinir.
 
 - Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
+    Bunun için Git şablonunu (template) kullanabiliriz. Şu adımları izleyebiliriz:
+    1. Lokal çalışma ortamında bir "ReadMe.md" dosyası oluştururuz. Bu bizim için yeni depo oluştururken bir şablon görevi görecek.
+    2. Git şablonunun adresini git config ile şu şekilde kaydedelim (/path/to/your/template/directory yerine ReadMe.md oluşturduğumuz adresi vereceğiz):
+    ```
+        git config --global init.templateDir /path/to/your/template/directory
+    ```
+    3. "git init" komutu ile depo oluşturabiliriz. Bu durumda "ReadMe.md" bizim için otomatik olarak oluşturulacaktır.
+
 - Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
+    
+
 - Sıfırdan bir "branch" nasıl oluşturabiliriz?
 - Var olan bir "branch"e nasıl geçebiliriz?
 - "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
