@@ -15,7 +15,11 @@
     "origin" uzak bir Git deposunun bir takma adıdır. Geleneksel olarak ilk depo adını böyle versek de, farklı isimler de verebiliriz. Özellikle birden fazla uzak deposu bulunan projelerde kullanımı faydalıdır.
 
 - "HEAD" kelimesi neyi temsil etmektedir?
+    "HEAD" kelimesi, Git deposundaki mevcut işlem yapıldığı konumu temsil eder. Daha spesifik olarak, "HEAD" genellikle şu anki çalışma daldaki en son taahhütü işaret eder. Bu, kullanıcının çalıştığı dalı ve bu dalın son durumunu gösterir.
+
 - "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
+    Staging Area, Git deposunda değişikliklerin hazırlandığı ve sonraki bir taahhüde dahil edilmek üzere bekletildiği bir ara alanı temsil eder. Bu bölge, değişikliklerin taahhütlere eklenmeden önce düzenlenmesine ve kontrol edilmesine olanak tanır.  
+
 - "Untracked file" ne demektir?
 - ".git" klasörünü silersek ne olur?
 - Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
