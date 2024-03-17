@@ -1,10 +1,10 @@
 # Cevaplar - Git
 
 - Git Nedir?
-Git versiyon kontrol sistemi, yazılım geliştirme süreçlerinde kullanılan dağıtık bir versiyon kontrol sistemidir. Geliştiricilere proje dosyalarının geçmişini takip etme, değişiklikleri yönetme, işbirliği yapma ve kodu izleme imkanı sağlar.
+    Git versiyon kontrol sistemi, yazılım geliştirme süreçlerinde kullanılan dağıtık bir versiyon kontrol sistemidir. Geliştiricilere proje dosyalarının geçmişini takip etme, değişiklikleri yönetme, işbirliği yapma ve kodu izleme imkanı sağlar.
 
 - "git pull" ile "git fetch" komutlarının farkı nedir?
-"git pull" komutu, uzak depodan değişiklikleri alır ve bunları yerel depoya indirirken aynı zamanda mevcut dalı (branch) günceller. "git fetch" komutu ise uzak depodaki değişiklikleri sadece yerel depoya indirir ancak mevcut dala otomatik olarak entegre etmez.
+    "git pull" komutu, uzak depodan değişiklikleri alır ve bunları yerel depoya indirirken aynı zamanda mevcut dalı (branch) günceller. "git fetch" komutu ise uzak depodaki değişiklikleri sadece yerel depoya indirir ancak mevcut dala otomatik olarak entegre etmez.
 
 - Eğer takım arkadaşımız "kodlarımı gönderdim, benim geliştirmemin üzerine devam et" derse ve gönderdiği kodları "git pull" ile lokalimize alamıyorsak nerelerde hata yapılmış olabilir?
     * **Çakışan değişiklikler**: Bu bağlamda en sık karşılaşılan sorunların başında gelir. Eğer kişi lokal çalışma ortamında bir değişiklik yaptıysa, git pull komutu çalıştırılamaz.
@@ -12,6 +12,8 @@ Git versiyon kontrol sistemi, yazılım geliştirme süreçlerinde kullanılan d
     * **Yanlış dala yollamak:** Geliştirici kodu yanlış daha göndermiş olabilir. Bu durumda gönderilen dalın da açık bir şekilde belirtilmesi faydalı olur.
 
 - "git fetch origin" komutundaki "origin" neye karşılık gelmektedir?
+    "origin" uzak bir Git deposunun bir takma adıdır. Geleneksel olarak ilk depo adını böyle versek de, farklı isimler de verebiliriz. Özellikle birden fazla uzak deposu bulunan projelerde kullanımı faydalıdır.
+
 - "HEAD" kelimesi neyi temsil etmektedir?
 - "Staging Area" ya da "Index" diye isimlendirilen bölge tam olarak ne demektir?
 - "Untracked file" ne demektir?

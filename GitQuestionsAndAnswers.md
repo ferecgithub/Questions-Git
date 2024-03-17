@@ -1,10 +1,10 @@
 # Cevaplar - Git
 
 - What is Git?
-Git is a distributed version control system used in software development processes, providing developers with the ability to track project file history, manage changes, collaborate, and track code.
+    Git is a distributed version control system used in software development processes, providing developers with the ability to track project file history, manage changes, collaborate, and track code.
 
 - What is the difference between "git pull" and "git fetch" commands?
-The difference between "git pull" and "git fetch" commands is that "git pull" not only retrieves changes from the remote repository but also integrates them into the local branch, whereas "git fetch" only downloads changes from the remote repository to the local repository without merging them into the current branch.
+    The difference between "git pull" and "git fetch" commands is that "git pull" not only retrieves changes from the remote repository but also integrates them into the local branch, whereas "git fetch" only downloads changes from the remote repository to the local repository without merging them into the current branch.
 
 - If our teammate says "I've pushed my code, continue from where I left off with my development," and we can't fetch their pushed code to our local repository using "git pull," where might mistakes have been made?
     * **Conflicting changes**: This is one of the most common issues in this context. If a person has made changes in their local working environment, the "git pull" command cannot be executed.
@@ -12,6 +12,8 @@ The difference between "git pull" and "git fetch" commands is that "git pull" no
     * **Pushing to the wrong branch:** The developer may have mistakenly sent the code to the wrong branch. In this case, it would be helpful to clearly specify the branch that has been pushed to.
 
 - What does "origin" refer to in the "git fetch origin" command?
+    "origin" is an alias for a remote Git repository. While traditionally it's given as the first repository name, we can assign different names as well. This is particularly useful in projects with multiple remote repositories.
+
 - What does the term "HEAD" represent?
 - What exactly is the region referred to as "Staging Area" or "Index"?
 - What does "Untracked file" mean?
