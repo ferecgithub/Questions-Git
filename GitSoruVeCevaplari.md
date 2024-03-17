@@ -36,7 +36,7 @@
     3. "git init" komutu ile depo oluşturabiliriz. Bu durumda "ReadMe.md" bizim için otomatik olarak oluşturulacaktır.
 
 - Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
-    
+    Git sistemindeki dal yapısı geliştiricilere aynı proje üzerinde farklı özellikleri veya değişiklikleri paralel şekilde geliştirme imkanı verir. Bug düzeltmesi veya yeni özellik (feature) dalları açarak geliştiriciler canlı ürün dalını kirletmemiş olurlar. Bu aynı zamanda izolasyon da sağlar.
 
 - Sıfırdan bir "branch" nasıl oluşturabiliriz?
 - Var olan bir "branch"e nasıl geçebiliriz?

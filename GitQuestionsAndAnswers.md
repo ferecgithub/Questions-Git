@@ -36,7 +36,7 @@
     3. We can create a repository with the "git init" command. In this case, "ReadMe.md" will be automatically created for us.
 
 - What is the "branch" structure mentioned in Git? What does it provide us?
-
+    In the Git system, the branch structure allows developers to work on different features or changes in parallel on the same project. By creating bug fixes or new feature branches, developers avoid polluting the main production branch. This also provides isolation.
 
 - How can we create a new "branch" from scratch?
 - How can we switch to an existing "branch"?
