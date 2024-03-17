@@ -24,6 +24,8 @@
     İzlenmeyen dosya, henüz ara bölgeye (staging area) alınmamış dosyalardır. Git, bu dosyanın değişikliklerini izlemeyecek veya kaydetmeyecek ve bu dosya hakkında herhangi bir bilgi saklamayacaktır. 
 
 - ".git" klasörünü silersek ne olur?
+    Bu klasörü silersek proje ile ilgili lokalde tuttuğumuz git ile ilgili tüm değişiklikler, tarih ve takip bilgisi silinir.
+
 - Kendi lokalimizde her "git init" komutunu kullanıdığımızda otomatik olarak "ReadMe.md" dosyası oluşturulmasını istiyorsak ne yapmalıyız?
 - Git konusunda bahsi geçen "branch" yapısı nedir? Bize ne sağlar?
 - Sıfırdan bir "branch" nasıl oluşturabiliriz?

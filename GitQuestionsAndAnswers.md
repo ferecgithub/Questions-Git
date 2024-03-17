@@ -24,6 +24,8 @@
     An untracked file refers to a file that has not yet been added to the staging area. Git will not track or save changes for this file, and will not store any information about it.
 
 - What happens if we delete the ".git" folder?
+    If we delete this folder, all the changes, history, and tracking information related to the Git repository we have locally stored for the project will be erased.
+
 - If we want a "ReadMe.md" file to be automatically created every time we use the "git init" command in our local environment, what should we do?
 - What is the "branch" structure mentioned in Git? What does it provide us?
 - How can we create a new "branch" from scratch?
