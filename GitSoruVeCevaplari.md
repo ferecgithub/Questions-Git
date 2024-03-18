@@ -66,7 +66,7 @@
     ,,,
 
 14. "Merge conflict" ne demektir?
-
+    "Merge conflict" (birleştirme çakışması), birleştirme işlemi sırasında karşılaşılan ve Git'in otomatik olarak çözemediği çatışmaları ifade eder. Bu çatışmalar, farklı dallardaki aynı dosyanın aynı satırında yapılan değişikliklerden kaynaklanabilir veya bir daldaki bir dosyanın silinmesi ve diğer dalda aynı dosyanın değiştirilmesi gibi durumlardan ortaya çıkabilir. Merge conflict, Git'in çatışmayı çözemediği durumlarda, kullanıcıya manuel olarak müdahale etmesi gerektiğini belirtir. Bu durumda, kullanıcı çatışan dosyaları incelemeli, çakışan değişiklikleri düzeltmeli ve ardından çözümlerini taahhüt (commit) etmelidir.
 
 15. "git log" komutu ile hangi bilgileri görebiliriz?
 16. "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
