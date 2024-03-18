@@ -117,5 +117,7 @@
     GitHub is a remote repository that uses the Git system. We can think of it as a database. Git, on the other hand, is a version control system. It provides developers with the ability to track the history of project files, manage changes, collaborate, and track code. Apart from GitHub, there are also remote repositories such as GitLab, BitBucket, GitKraken, SourceForge, and Launchpad. Personally, I use GitHub and my GitHub address is [ferecgithub](https://github.com/ferecgithub).
 
 24. What is the difference between the main or master branch and other branches?
+    The main or master branch is the default branch created initially. This branch is usually restricted to developers other than high-level developers for stability and security reasons. Typically, tested and functioning versions are merged into the main branch.
+
 25. What is the ".gitignore" file and what is it used for?
 26. What is "git push origin --delete branch_name" and what is it used for?

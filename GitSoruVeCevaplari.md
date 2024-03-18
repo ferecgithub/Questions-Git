@@ -118,5 +118,7 @@
 GitHub, git sistemini kullanan bir uzak depodur. Bunun bir veritabanı gibi düşünebiliriz. git ise bir versiyon kontrol sistemidir. Geliştiricilere proje dosyalarının geçmişini takip etme, değişiklikleri yönetme, işbirliği yapma ve kodu izleme imkanı sağlar. GitHub dışında, GitLab, BitBucket, GitKraken, SourceForge ve Launchpad gibi uzak depolar da mevcuttur. Kişisel olarak GitHub kullanıyorum ve github adresim [ferecgithub](https://github.com/ferecgithub).
 
 24. main ya da master branch'inin diğer branchlerden farkı nedir?
+    main veya master dalı varsayılan olarak ilk açılan daldır. Bu dal genelde stabilite ve güvenlik için yüksek seviyeli geliştiriciler hariç diğer geliştiricilere kısıtlanır. Genellikle testten geçmiş ve çalışan versiyonlar main dalına birleştirilir.
+
 25. ".gitignore" dosyası nedir ve ne amaçla kullanılır? - (Teşekkürler @madenyasin)
 26. "git push origin --delete branch_name” nedir ve ne için kullanılır?
