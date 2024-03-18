@@ -104,6 +104,8 @@
     Atomic commit is committing a feature or a change in the smallest, meaningful, and consistent way possible. This ensures that commits are made in a consistent and clean manner, making it easier to revert if necessary.
 
 20. What does Repository mean?
+    Repository, a place where the files and project history of a software project are stored. Typically, a Git repository can be thought of as a directory containing project files and a database that includes the history, changes, and version history of these files. The repository hosts project files and enables developers to work on, make changes to, revert, and share these files. Therefore, the repository serves as the central repository of a software project and maintains the project history.
+
 21. What is "git tag"? How does it differ from "git branch"?
 22. What third-party tools and applications can we use to visually interact with Git?
 23. What is the difference between "GitHub" and "git"? What are other similar sites like GitHub? Could you list usernames on GitHub or other sites?

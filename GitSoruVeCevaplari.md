@@ -105,6 +105,8 @@
     Atomik taahhüt, bir özelliği veya bir değişikliği en küçük, anlamlı ve tutarlı şekilde taahhüt etmektir. Bu şekilde taahhütler tutarlı ve temiz hâlde yapılmış olurlar ve geri dönmesi de kolaylaşır.
 
 20. Repository ne demektir?
+    Repository (depo), bir yazılım projesinin dosyalarının ve proje geçmişinin depolandığı yerdir. Genellikle, bir Git deposu, proje dosyalarını içeren bir dizin ve bu dosyaların geçmişini, değişikliklerini ve sürüm geçmişini içeren bir veritabanı olarak düşünülebilir. Depo, proje dosyalarını barındırır ve geliştiricilerin bu dosyalar üzerinde çalışmasını, değişiklik yapmasını, geri almasını ve paylaşmasını sağlar. Bu nedenle, depo, bir yazılım projesinin merkezi deposudur ve proje geçmişini tutar.
+
 21. "git tag" nedir? "git branch"’ten farkı nedir?
 22. Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 23. "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
