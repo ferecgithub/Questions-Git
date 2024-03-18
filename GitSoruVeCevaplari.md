@@ -39,6 +39,16 @@
     Git sistemindeki dal yapısı geliştiricilere aynı proje üzerinde farklı özellikleri veya değişiklikleri paralel şekilde geliştirme imkanı verir. Bug düzeltmesi veya yeni özellik (feature) dalları açarak geliştiriciler canlı ürün dalını kirletmemiş olurlar. Bu aynı zamanda izolasyon da sağlar.
 
 - Sıfırdan bir "branch" nasıl oluşturabiliriz?
+    Git sisteminde sıfırdan bir dal oluşturmanın 2 temel yolu vardır. Bunların ikisi de aynı işi yapar. Sadece versiyon farkı yönünden farkı vardır.
+    1. Versiyon 2.23'ten sonra önerilen yol olan "switch" anahtar kelimesi ile dal oluşturabiliriz:
+    ```
+        git switch -c <dal_adi>
+    ```
+    2. Daha eski bir yol olan "checkout" anahtar kelimesi ile anahtar kelimesi ile dal oluşturabiliriz:
+    ```
+        git checkout -b <dal_adi>
+    ```
+
 - Var olan bir "branch"e nasıl geçebiliriz?
 - "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 - "Merge conflict" ne demektir?

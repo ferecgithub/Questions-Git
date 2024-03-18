@@ -39,6 +39,15 @@
     In the Git system, the branch structure allows developers to work on different features or changes in parallel on the same project. By creating bug fixes or new feature branches, developers avoid polluting the main production branch. This also provides isolation.
 
 - How can we create a new "branch" from scratch?
+    In Git system, there are two primary ways to create a branch from scratch, both of which accomplish the same task but differ only in terms of version.
+    1. We can create a branch using the "switch" keyword, which is the recommended method after version 2.23:
+    ```
+        git switch -c <branch_name>
+    ```
+    2. We can create a branch using the "checkout" keyword, which is an older method:
+    ```
+        git checkout -b <branch_name>
+
 - How can we switch to an existing "branch"?
 - If we want to fetch only a specific branch while using the "git clone" command, how can we do it?
 - What does "Merge conflict" mean?
