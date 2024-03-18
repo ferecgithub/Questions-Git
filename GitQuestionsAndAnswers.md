@@ -112,8 +112,10 @@
 
 22. What third-party tools and applications can we use to visually interact with Git?
     For this purpose, we can use third-party tools such as SourceTree, GitHub Desktop, GitKraken.
-    
+
 23. What is the difference between "GitHub" and "git"? What are other similar sites like GitHub? Could you list usernames on GitHub or other sites?
+    GitHub is a remote repository that uses the Git system. We can think of it as a database. Git, on the other hand, is a version control system. It provides developers with the ability to track the history of project files, manage changes, collaborate, and track code. Apart from GitHub, there are also remote repositories such as GitLab, BitBucket, GitKraken, SourceForge, and Launchpad. Personally, I use GitHub and my GitHub address is [ferecgithub](https://github.com/ferecgithub).
+
 24. What is the difference between the main or master branch and other branches?
 25. What is the ".gitignore" file and what is it used for?
 26. What is "git push origin --delete branch_name" and what is it used for?

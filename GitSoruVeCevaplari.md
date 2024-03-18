@@ -115,6 +115,8 @@
     Bunun için SourceTree, GitHub Desktop, GitKraken gibi üçüncü taraf araçları kullanabiliriz.
 
 23. "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
+GitHub, git sistemini kullanan bir uzak depodur. Bunun bir veritabanı gibi düşünebiliriz. git ise bir versiyon kontrol sistemidir. Geliştiricilere proje dosyalarının geçmişini takip etme, değişiklikleri yönetme, işbirliği yapma ve kodu izleme imkanı sağlar. GitHub dışında, GitLab, BitBucket, GitKraken, SourceForge ve Launchpad gibi uzak depolar da mevcuttur. Kişisel olarak GitHub kullanıyorum ve github adresim [ferecgithub](https://github.com/ferecgithub).
+
 24. main ya da master branch'inin diğer branchlerden farkı nedir?
 25. ".gitignore" dosyası nedir ve ne amaçla kullanılır? - (Teşekkürler @madenyasin)
 26. "git push origin --delete branch_name” nedir ve ne için kullanılır?
