@@ -97,6 +97,9 @@
     3. Hard reset (`--hard`): It moves the pointer to a specific previous position and deletes all changes and untracked files. It is used when you want to fully revert to a specific previous state and removes all changes made.
 
 18. What is the difference between "git commit" and "git push"?
+    * The "git commit" command saves changes in the local repository to a tracked history. This allows changes to be tracked and rolled back if necessary.
+    * The "git push" command sends changes from the local repository to a remote repository (such as GitHub or Bitbucket). This allows changes to be shared with other collaborators and creates a centralized version history for the project.
+
 19. What is an Atomic commit?
 20. What does Repository mean?
 21. What is "git tag"? How does it differ from "git branch"?

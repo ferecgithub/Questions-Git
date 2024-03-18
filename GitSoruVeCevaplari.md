@@ -98,6 +98,9 @@
     3. Hard reset (`--hard`): İşaretçiyi belirli bir önceki konuma geri götürür ve tüm değişiklikleri ve kayıtlı olmayan dosyaları siler. Yani, belirli bir önceki duruma tam olarak geri dönmek istediğinizde kullanılır ve tüm yapılan değişiklikleri siler.
 
 18. "git commit" ile "git push" arasındaki fark nedir?
+    * "git commit" komutu, yerel depodaki değişiklikleri takip edilen bir geçmişe kaydeder. Bu, değişikliklerin takip edilmesine ve gerektiğinde geri alınabilmesine olanak tanır.
+    * "git push" komutu, yerel depodaki değişiklikleri uzak bir depoya (örneğin GitHub veya BitBucket) gönderir. Bu, değişikliklerin diğer işbirlikçilerle paylaşılabilmesini ve projenin merkezi bir sürüm geçmişinin oluşturulmasını sağlar.
+
 19. Atomic commit ne demektir?
 20. Repository ne demektir?
 21. "git tag" nedir? "git branch"’ten farkı nedir?
