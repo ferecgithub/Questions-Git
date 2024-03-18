@@ -49,6 +49,15 @@
         git checkout -b <branch_name>
 
 - How can we switch to an existing "branch"?
+    You can switch to an existing branch using the "switch" and "checkout" keywords.
+    1. Switching to a branch using the "switch" keyword, which is the recommended method after version 2.23:
+    ```
+        git switch <branch_name>
+    ```
+    2. Switching to a branch using the "checkout" keyword, which is an older method:
+    ```
+        git checkout <branch_name>
+        
 - If we want to fetch only a specific branch while using the "git clone" command, how can we do it?
 - What does "Merge conflict" mean?
 - What information can we see with the "git log" command?

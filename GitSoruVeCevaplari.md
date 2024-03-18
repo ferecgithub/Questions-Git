@@ -50,6 +50,15 @@
     ```
 
 - Var olan bir "branch"e nasıl geçebiliriz?
+    "switch" veya "checkout" anahtar kelimeleri ile var olan bir dala geçilebilir.
+    1. Versiyon 2.23'ten sonra önerilen yol olan "switch" anahtar kelimesi ile dala geçme:
+    ```
+        git switch <dal_adi>
+    ```
+    2. Daha eski bir yol olan "checkout" anahtar kelimesi ile anahtar kelimesi ile dala geçme:
+    ```
+        git checkout <dal_adi>
+        
 - "git clone" komutunu kullanırken belirli bir spesifik branch'i sadece çekmek istiyorsak nasıl yapabiliriz?
 - "Merge conflict" ne demektir?
 - "git log" komutu ile hangi bilgileri görebiliriz?
