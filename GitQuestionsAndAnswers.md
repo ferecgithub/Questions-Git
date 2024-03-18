@@ -107,6 +107,9 @@
     Repository, a place where the files and project history of a software project are stored. Typically, a Git repository can be thought of as a directory containing project files and a database that includes the history, changes, and version history of these files. The repository hosts project files and enables developers to work on, make changes to, revert, and share these files. Therefore, the repository serves as the central repository of a software project and maintains the project history.
 
 21. What is "git tag"? How does it differ from "git branch"?
+    "git tag" is a Git command used to add tags to a specific commit or state (such as a release or published software version). These tags specify the status or version of the project at a specific point by assigning a meaningful name or number. They are typically used to mark software releases or indicate significant milestones.
+    On the other hand, the "git branch" command is used to list existing branches in a Git repository, create new branches, delete an existing branch, or switch a branch. While creating a new branch for adding a new feature or fixing a bug, "git tag" is used to mark specific points in a project. In other words, while "git branch" facilitates branch creation and management, "git tag" is used to assign meaningful names to specific points.
+
 22. What third-party tools and applications can we use to visually interact with Git?
 23. What is the difference between "GitHub" and "git"? What are other similar sites like GitHub? Could you list usernames on GitHub or other sites?
 24. What is the difference between the main or master branch and other branches?

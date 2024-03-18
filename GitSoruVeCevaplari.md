@@ -108,6 +108,9 @@
     Repository (depo), bir yazılım projesinin dosyalarının ve proje geçmişinin depolandığı yerdir. Genellikle, bir Git deposu, proje dosyalarını içeren bir dizin ve bu dosyaların geçmişini, değişikliklerini ve sürüm geçmişini içeren bir veritabanı olarak düşünülebilir. Depo, proje dosyalarını barındırır ve geliştiricilerin bu dosyalar üzerinde çalışmasını, değişiklik yapmasını, geri almasını ve paylaşmasını sağlar. Bu nedenle, depo, bir yazılım projesinin merkezi deposudur ve proje geçmişini tutar.
 
 21. "git tag" nedir? "git branch"’ten farkı nedir?
+    "git tag", belirli bir commit'e veya belirli bir duruma (örneğin, bir sürüm veya yayımlanmış bir yazılım sürümü) etiket eklemek için kullanılan bir Git komutudur. Bu etiketler, belirli bir noktaya anlamlı bir isim veya numara atayarak, o noktadaki projenin durumunu veya sürümünü belirtir. Genellikle, yazılım sürümlerini işaretlemek veya önemli dönüm noktalarını belirtmek için kullanılırlar.
+    Öte yandan, "git branch" komutu, Git deposunda mevcut olan dalları listelemek, yeni dallar oluşturmak, mevcut bir dalı silmek veya bir dalı değiştirmek için kullanılır. Yeni bir özellik eklemek veya bir hata düzeltmesi yapmak için yeni bir dal oluştururken, "git tag" ise belirli bir projenin belirli bir noktasını işaretlemek için kullanılır. Başka bir deyişle, "git branch" dal oluşturmayı ve yönetmeyi sağlarken, "git tag" belirli noktalara anlamlı isimler atamak için kullanılır.
+
 22. Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
 23. "GitHub" ile "git" arasındaki fark nedir? GitHub benzeri diğer siteler nelerdir? GitHub veya diğer sitelerdeki kullanıcı adlarını yazar mısınız?
 24. main ya da master branch'inin diğer branchlerden farkı nedir?
