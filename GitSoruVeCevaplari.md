@@ -91,6 +91,11 @@
     ```
 
 17. Git reset ile neyi geri alıyoruz?
+    "git reset" komutu, işaretçiyi (HEAD) ve çalışma dizinini belirli bir önceki konuma geri döndürmek için kullanılır. Bu, yapılan değişiklikleri geri almak veya değiştirmek için kullanışlıdır. 3 çeşit bayrak kullanılabilir:
+    
+    1. Soft reset (`--soft`): İşaretçiyi ve dizininizi belirli bir önceki commit'e (veya herhangi bir belirli bir konuma) geri götürür, ancak değişikliklerinizi çalışma dizinizdeki (staged) bırakır. Yani, commit yapmamış gibi bir önceki duruma dönmenizi sağlar.
+    2. Mixed reset (`--mixed`): Soft reset gibi davranır, ancak değişiklikleri çalışma dizininden (staged) çıkarır ve değişiklikleri takip eden dosyaları değişikliklerden önceki durumuna geri getirir. Yani, commit yapmamış gibi çalışma dizinindeki değişiklikleri iptal eder, ancak dosyalarınızı değiştirmek için hazır hale getirir.
+    3. Hard reset (`--hard`): İşaretçiyi belirli bir önceki konuma geri götürür ve tüm değişiklikleri ve kayıtlı olmayan dosyaları siler. Yani, belirli bir önceki duruma tam olarak geri dönmek istediğinizde kullanılır ve tüm yapılan değişiklikleri siler.
 
 18. "git commit" ile "git push" arasındaki fark nedir?
 19. Atomic commit ne demektir?

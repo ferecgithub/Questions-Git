@@ -90,6 +90,11 @@
     ```
 
 17. What do we revert with Git reset?
+    The "git reset" command is used to reset the pointer (HEAD) and the working directory to a specific previous state. This is useful for undoing or modifying changes made. There are 3 types of flags that can be used:
+
+    1. Soft reset (`--soft`): It moves the pointer and the directory to a specific previous commit (or any specified position), but keeps your changes in the working directory (staged). It allows you to revert to a previous state as if you haven't committed yet.
+    2. Mixed reset (`--mixed`): It behaves like a soft reset, but removes changes from the working directory (staged) and reverts tracked files to their state before changes. It cancels changes in the working directory as if you haven't committed yet but prepares your files for modification.
+    3. Hard reset (`--hard`): It moves the pointer to a specific previous position and deletes all changes and untracked files. It is used when you want to fully revert to a specific previous state and removes all changes made.
 
 18. What is the difference between "git commit" and "git push"?
 19. What is an Atomic commit?
