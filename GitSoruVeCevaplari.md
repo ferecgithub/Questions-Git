@@ -124,3 +124,4 @@ GitHub, git sistemini kullanan bir uzak depodur. Bunun bir veritabanı gibi dü�
     Bu dosya git reposuna göndermek istemediğimiz, dışarıya açmak istediğimiz veya çalıştığımız bilgisayara özel dosyaları belirlememizi sağlayan bir araçtır. Bu sayede hem reponun gereksiz dosyalarla büyümesinin, hem de bazı güvenlik açıklarının önüne geçebiliriz.
 
 26. "git push origin --delete branch_name” nedir ve ne için kullanılır?
+    Bu komut, belirtilen uzak depodan belirtilen daldaki tüm değişiklikleri ve geçmişi siler. Bu genellikle artık gerekli olmayan veya kullanılmayan bir dalı temizlemek veya depodaki gereksiz dalları azaltmak için kullanılır.

@@ -123,3 +123,4 @@
     This tool allows us to specify files that we do not want to send to the Git repository, want to keep private, or are specific to the computer we are working on. This way, we can prevent the repository from growing with unnecessary files and mitigate some security vulnerabilities.
 
 26. What is "git push origin --delete branch_name" and what is it used for?
+    This command deletes all changes and history in the specified branch from the specified remote repository. It is typically used to clean up unnecessary or unused branches in the repository.
