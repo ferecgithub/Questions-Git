@@ -68,6 +68,8 @@
     A "merge conflict" refers to conflicts encountered during the merging process that Git cannot automatically resolve. These conflicts may arise from changes made to the same line of a file in different branches or situations where a file is deleted in one branch while being modified in another. In cases where Git cannot resolve the conflict, manual intervention by the user is required. The user must review the conflicting files, resolve the conflicting changes, and then commit their resolutions.
 
 15. What information can we see with the "git log" command?
+    The "git log" command is used to display the commit history in a Git repository. With this command, unique identifiers in the form of hash codes, the author's name and email, date and time information, commit message, and a list of changes made are shown. You can request either a summary (using the --oneline flag) or a detailed view (using the -p flag).
+
 16. How many different sets of changes can we see between two states using "git diff"?
 17. What do we revert with Git reset?
 18. What is the difference between "git commit" and "git push"?

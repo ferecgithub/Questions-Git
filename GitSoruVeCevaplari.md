@@ -69,6 +69,9 @@
     "Merge conflict" (birleştirme çakışması), birleştirme işlemi sırasında karşılaşılan ve Git'in otomatik olarak çözemediği çatışmaları ifade eder. Bu çatışmalar, farklı dallardaki aynı dosyanın aynı satırında yapılan değişikliklerden kaynaklanabilir veya bir daldaki bir dosyanın silinmesi ve diğer dalda aynı dosyanın değiştirilmesi gibi durumlardan ortaya çıkabilir. Merge conflict, Git'in çatışmayı çözemediği durumlarda, kullanıcıya manuel olarak müdahale etmesi gerektiğini belirtir. Bu durumda, kullanıcı çatışan dosyaları incelemeli, çakışan değişiklikleri düzeltmeli ve ardından çözümlerini taahhüt (commit) etmelidir.
 
 15. "git log" komutu ile hangi bilgileri görebiliriz?
+    "git log" komutu, bir Git deposundaki commit geçmişini görüntülemek için kullanılır. Bu komutla, eşsiz birer hash kodu şekilde taahhütlerin kimliği, yazarın adı ve emaili, tarih ve saat bilgisi, taahhüt mesajı, yapılan değişikliklerin listesi (özet istiyorsan `--oneline`, ayrıntılı istiyorsak `-p` bayrakları kullanılabilir) gösterilir.
+
+
 16. "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
 17. Git reset ile neyi geri alıyoruz?
 18. "git commit" ile "git push" arasındaki fark nedir?
