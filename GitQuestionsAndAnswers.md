@@ -111,6 +111,8 @@
     On the other hand, the "git branch" command is used to list existing branches in a Git repository, create new branches, delete an existing branch, or switch a branch. While creating a new branch for adding a new feature or fixing a bug, "git tag" is used to mark specific points in a project. In other words, while "git branch" facilitates branch creation and management, "git tag" is used to assign meaningful names to specific points.
 
 22. What third-party tools and applications can we use to visually interact with Git?
+    For this purpose, we can use third-party tools such as SourceTree, GitHub Desktop, GitKraken.
+    
 23. What is the difference between "GitHub" and "git"? What are other similar sites like GitHub? Could you list usernames on GitHub or other sites?
 24. What is the difference between the main or master branch and other branches?
 25. What is the ".gitignore" file and what is it used for?
