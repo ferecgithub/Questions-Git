@@ -101,6 +101,8 @@
     * The "git push" command sends changes from the local repository to a remote repository (such as GitHub or Bitbucket). This allows changes to be shared with other collaborators and creates a centralized version history for the project.
 
 19. What is an Atomic commit?
+    Atomic commit is committing a feature or a change in the smallest, meaningful, and consistent way possible. This ensures that commits are made in a consistent and clean manner, making it easier to revert if necessary.
+
 20. What does Repository mean?
 21. What is "git tag"? How does it differ from "git branch"?
 22. What third-party tools and applications can we use to visually interact with Git?

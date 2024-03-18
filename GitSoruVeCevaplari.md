@@ -102,6 +102,8 @@
     * "git push" komutu, yerel depodaki değişiklikleri uzak bir depoya (örneğin GitHub veya BitBucket) gönderir. Bu, değişikliklerin diğer işbirlikçilerle paylaşılabilmesini ve projenin merkezi bir sürüm geçmişinin oluşturulmasını sağlar.
 
 19. Atomic commit ne demektir?
+    Atomik taahhüt, bir özelliği veya bir değişikliği en küçük, anlamlı ve tutarlı şekilde taahhüt etmektir. Bu şekilde taahhütler tutarlı ve temiz hâlde yapılmış olurlar ve geri dönmesi de kolaylaşır.
+
 20. Repository ne demektir?
 21. "git tag" nedir? "git branch"’ten farkı nedir?
 22. Git'i görsel olarak kullanabilmek için hangi üçüncü taraf araçları ve uygulamaları kullanabiliriz?
