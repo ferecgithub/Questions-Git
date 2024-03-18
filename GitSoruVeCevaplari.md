@@ -121,4 +121,6 @@ GitHub, git sistemini kullanan bir uzak depodur. Bunun bir veritabanı gibi dü�
     main veya master dalı varsayılan olarak ilk açılan daldır. Bu dal genelde stabilite ve güvenlik için yüksek seviyeli geliştiriciler hariç diğer geliştiricilere kısıtlanır. Genellikle testten geçmiş ve çalışan versiyonlar main dalına birleştirilir.
 
 25. ".gitignore" dosyası nedir ve ne amaçla kullanılır? - (Teşekkürler @madenyasin)
+    Bu dosya git reposuna göndermek istemediğimiz, dışarıya açmak istediğimiz veya çalıştığımız bilgisayara özel dosyaları belirlememizi sağlayan bir araçtır. Bu sayede hem reponun gereksiz dosyalarla büyümesinin, hem de bazı güvenlik açıklarının önüne geçebiliriz.
+
 26. "git push origin --delete branch_name” nedir ve ne için kullanılır?
