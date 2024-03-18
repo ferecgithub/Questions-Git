@@ -71,9 +71,27 @@
 15. "git log" komutu ile hangi bilgileri görebiliriz?
     "git log" komutu, bir Git deposundaki commit geçmişini görüntülemek için kullanılır. Bu komutla, eşsiz birer hash kodu şekilde taahhütlerin kimliği, yazarın adı ve emaili, tarih ve saat bilgisi, taahhüt mesajı, yapılan değişikliklerin listesi (özet istiyorsan `--oneline`, ayrıntılı istiyorsak `-p` bayrakları kullanılabilir) gösterilir.
 
-
 16. "git diff" ile kaç farklı iki durumun arasındaki değişiklikleri görebiliriz?
+    "git diff" komutu temel olarak 4 farklı durumun karşılaştırması için kullanılır. Bunlar:
+    1. İki commit arasındaki değişiklikleri görmek için:
+    ```
+        git diff <commit1> <commit2>
+    ```
+    2. İki farklı dal arasındaki değişiklikleri görmek için:
+    ```
+        git diff <branch1> <branch2>
+    ```
+    3. İki etiket arasındaki değişiklikleri görmek için:
+    ```
+        git diff <tag1> <tag2>
+    ```
+    4. Çalışma dizinizdeki değişiklikleri ve en son commit arasındaki farkı görmek için:
+    ```
+        git diff HEAD
+    ```
+
 17. Git reset ile neyi geri alıyoruz?
+
 18. "git commit" ile "git push" arasındaki fark nedir?
 19. Atomic commit ne demektir?
 20. Repository ne demektir?

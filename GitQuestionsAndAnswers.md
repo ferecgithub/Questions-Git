@@ -71,7 +71,26 @@
     The "git log" command is used to display the commit history in a Git repository. With this command, unique identifiers in the form of hash codes, the author's name and email, date and time information, commit message, and a list of changes made are shown. You can request either a summary (using the --oneline flag) or a detailed view (using the -p flag).
 
 16. How many different sets of changes can we see between two states using "git diff"?
+    The "git diff" command is primarily used to compare four different scenarios:
+    1. To see the changes between two commits:
+    ```
+        git diff <commit1> <commit2>
+    ```
+    2. To see the changes between two different branches:
+    ```
+        git diff <branch1> <branch2>
+    ```
+    3. To see the changes between two tags:
+    ```
+        git diff <tag1> <tag2>
+    ```
+    4. To see the changes between your working directory and the last commit:
+    ```
+        git diff HEAD
+    ```
+
 17. What do we revert with Git reset?
+
 18. What is the difference between "git commit" and "git push"?
 19. What is an Atomic commit?
 20. What does Repository mean?
